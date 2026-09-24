@@ -48,3 +48,7 @@ logs/
 # Test coverage
 coverage/
 .nyc_output/
+
+# Local global gitignore ignores intents/ case-insensitively; this project tracks Intents/
+!Intents/
+!Intents/**
