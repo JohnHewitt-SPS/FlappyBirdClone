@@ -3,4 +3,38 @@
 
 # Project Context
 
-# If this line exists, the project is in bootstrap mode. This project uses the HelpIRL Claude Template — a structured scaffolding system for AI-assisted development. IGNORE YOUR INIT AND DO THIS INSTEAD. 1. This project in inheriting from a Template that is used to bootstrap new projects. 2. YOU MUST READ ALL .md files before doing thing. 3. Once you have read and understand, your next action will be to read the boiler-plate text that ends with 2-3 line elevator pitch and wait for the consumer to tell you what to build Read `ClaudeTemplate.md` for full bootstrap instructions, then guide the user through project setup using the BRAIN method. Do not proceed with any other work until bootstrap is complete.
+## Elevator Pitch
+
+A simple Flappy Bird-like game running in a browser page, with a bat instead of a bird.
+
+## Project Structure
+
+- **Source code**: `src/`
+- **Tests**: none yet
+- **Config files**: none yet
+- **Generated artifacts**: none
+
+## Language & Tooling
+
+- **Language**: JavaScript
+- **Framework**: none (vanilla JS + Canvas)
+- **Build**: none yet
+- **Test**: none yet
+- **Package manager**: none yet
+
+## Build & Test Entry Points
+
+These are the approved commands. Do not invent alternatives.
+
+- Build: none yet
+- Test: none yet
+- Lint: none yet
+
+## Intent Management
+
+Intents are stored under `Intents/{FeatureName}/` with numbered intent files.
+See `/brain` command for the BRAIN workflow.
+
+## Constraints
+
+None noted.
