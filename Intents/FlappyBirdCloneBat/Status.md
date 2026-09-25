@@ -3,6 +3,14 @@
 ## Intents
 | No. | Name | Status | Est. | Actual | Notes |
 |----:|------|--------|-----:|-------:|-------|
+| 1   | ProjectSkeleton | Todo | 1h   |        |       |
+| 2   | BatEntity | Todo | 2h   |        |       |
+| 3   | CaveBackground | Todo | 1h   |        |       |
+| 4   | ObstacleSystem | Todo | 2h   |        |       |
+| 5   | CollisionDetection | Todo | 1.5h |        |       |
+| 6   | ScoringSystem | Todo | 1h   |        |       |
+| 7   | GameStateFlow | Todo | 1.5h |        |       |
+| 8   | ArtPolish | Todo | 1.5h |        |       |
 
 > Claude may update **Status** column. Human owns **Actual** column.
 
