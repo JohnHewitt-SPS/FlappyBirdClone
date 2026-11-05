@@ -8,15 +8,31 @@ const HEIGHT = canvas.height; // 600
 
 let lastTime = null;
 
+// Bat at a fixed x about 1/3 across; created by createBat() in bat.js.
+const bat = createBat(Math.round(WIDTH / 3), HEIGHT / 2);
+
+// Spacebar flaps. Ignore auto-repeat so holding space doesn't spam flaps.
+window.addEventListener('keydown', (e) => {
+  if (e.code === 'Space') {
+    e.preventDefault(); // stop page scroll
+    if (!e.repeat) {
+      bat.flap();
+    }
+  }
+});
+
 // Advance game state by dt seconds.
 function update(dt) {
-  // Game entities (bat, obstacles, etc.) will be updated here.
+  bat.update(dt, HEIGHT);
+  // Obstacles, etc. will be updated here.
 }
 
 // Draw the current frame.
 function render() {
   ctx.fillStyle = '#000';
   ctx.fillRect(0, 0, WIDTH, HEIGHT);
+  // Background and obstacles will be drawn here, before the bat.
+  bat.render(ctx);
 }
 
 function loop(timestamp) {
